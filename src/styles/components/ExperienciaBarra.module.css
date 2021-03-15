@@ -1,0 +1,29 @@
+.experienciaBarra {
+    display: flex;
+    align-items: center;
+}
+
+.experienciaBarra span{
+    font-size: 1rem;
+}
+
+.experienciaBarra > div {
+    flex: 1;
+    height: 4px;
+    border-radius: 4px;
+    background-color: var(--gray-line);
+    margin: 0 1.5rem;
+    position: relative;
+}
+
+.experienciaBarra > div > div{
+    height: 4px;
+    border-radius: 4px;
+    background-color: var(--green);
+}
+
+span.experienciaCorrente{
+    position: absolute;
+    top: 12px;
+    transform: translateX(-50%)
+}
